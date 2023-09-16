@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="match_parent"
+            android:background="@color/green" />
+
+        <ImageView
+            android:id="@+id/pt_img"
+            android:layout_width="158dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/t1"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="226dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/pt_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/pt_rent_item_deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rental Deadline"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/deletebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/green"
+                android:text="Delete Item"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

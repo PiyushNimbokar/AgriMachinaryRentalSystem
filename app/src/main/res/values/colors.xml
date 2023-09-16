@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login_form_background">#DBD2D2</color>
+    <color name="green">#207308</color>
+    <color name="lightgreen">#44A438</color>
+    <color name="logogreen">#00743C</color>
+    <color name="inactive">#C4C4C4</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Minor</string>
+    <string name="app_title">KrushiYantraDut</string>
+    <string name="app_logo_description">KrushiYantraDut</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="first">Empowering farmers to effortlessly rent out or hire the equipments</string>
+    <string name="sec">A convenient platform for equipment owners to connect with individuals seeking equipment</string>
+    <string name="third">Simplifying the process of equipment hiring by providing a reliable solution</string>
+</resources>
